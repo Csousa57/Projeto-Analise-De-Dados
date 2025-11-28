@@ -1,0 +1,7 @@
+# filtragem de planilhas 
+import pandas as pd 
+
+df = pd.read_csv ('ClassicDisco.csv')
+
+filtro = df['Album']
+print(filtro)
